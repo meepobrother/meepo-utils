@@ -1,0 +1,20 @@
+{
+    "name": "meepo-utils",
+    "version": "1.0.0-alpha.0",
+    "repository": "https://github.com/dherges/ng-packaged.git",
+    "author": "david <david@spektrakel.de>",
+    "license": "MIT",
+    "private": true,
+    "peerDependencies": {
+        "@angular/core": "*",
+        "@angular/common": "*"
+    },
+    "ngPackage": {
+        "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+        "dest": "../../node_modules/meepo-utils",
+        "workingDirectory": "../.ng_build",
+        "lib": {
+            "entryFile": "./public_api.ts"
+        }
+    }
+}
